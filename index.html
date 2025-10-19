@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- GitHub Pages Site for NeuroGames Project -->
+<!-- "The beginning is the most important part of the work." - Plato -->
+
+<html lang="de">  <!-- Line 5: Set German language for proper text rendering -->
+<head>  <!-- Line 6: Start HTML head section for metadata and styling -->
+    <!-- Define character encoding for German text support -->
+    <meta charset="UTF-8">  <!-- Line 8: UTF-8 encoding for special characters -->
+    
+    <!-- Set viewport for responsive design across all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Line 11: Responsive viewport meta tag -->
+    
+    <!-- Page title shown in browser tab -->
+    <title>NeuroGames - Bald geht's los!</title>  <!-- Line 14: Browser tab title for the page -->
+    
+    <!-- Inline CSS styles for page appearance -->
+    <style>  <!-- Line 17: Start CSS styling section -->
+        /* Reset default browser margins and padding for consistent display */
+        * {  /* Line 19: Universal selector for all HTML elements */
+            margin: 0;  /* Line 20: Remove default margins from all elements */
+            padding: 0;  /* Line 21: Remove default padding from all elements */
+            box-sizing: border-box;  /* Line 22: Include padding/border in element width calculations */
+        }  /* Line 23: End universal style reset */
+        
+        /* Style the main body of the page */
+        body {  /* Line 26: Style the HTML body element */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* Line 27: Set modern font stack */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);  /* Line 28: Purple gradient background */
+            min-height: 100vh;  /* Line 29: Ensure body takes full viewport height */
+            display: flex;  /* Line 30: Use flexbox for center alignment */
+            justify-content: center;  /* Line 31: Center content horizontally */
+            align-items: center;  /* Line 32: Center content vertically */
+        }  /* Line 33: End body styling */
+        
+        /* Style the main content container */
+        .container {  /* Line 36: Style the main content wrapper */
+            text-align: center;  /* Line 37: Center-align all text content */
+            color: white;  /* Line 38: Set text color to white for visibility */
+            padding: 2rem;  /* Line 39: Add padding around container content */
+            border-radius: 15px;  /* Line 40: Round the container corners */
+            background: rgba(255, 255, 255, 0.1);  /* Line 41: Semi-transparent white background */
+            backdrop-filter: blur(10px);  /* Line 42: Add blur effect behind container */
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);  /* Line 43: Add shadow for depth */
+            max-width: 600px;  /* Line 44: Limit maximum container width */
+        }  /* Line 45: End container styling */
+        
+        /* Style the main heading */
+        h1 {  /* Line 48: Style the main heading element */
+            font-size: 3rem;  /* Line 49: Set large font size for heading */
+            margin-bottom: 1rem;  /* Line 50: Add space below heading */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Line 51: Add text shadow for readability */
+        }  /* Line 52: End heading styling */
+        
+        /* Style the subtitle paragraph */
+        p {  /* Line 55: Style paragraph elements */
+            font-size: 1.2rem;  /* Line 56: Set medium font size for paragraphs */
+            opacity: 0.9;  /* Line 57: Slight transparency for subtle effect */
+        }  /* Line 58: End paragraph styling */
+        
+        /* Add animation to make the page more engaging */
+        .container {  /* Line 61: Add animation to container */
+            animation: fadeInUp 1s ease-out;  /* Line 62: Fade in and slide up animation */
+        }  /* Line 63: End animation styling */
+        
+        /* Define the fadeInUp animation keyframes */
+        @keyframes fadeInUp {  /* Line 66: Start animation definition */
+            from {  /* Line 67: Animation starting state */
+                opacity: 0;  /* Line 68: Start invisible */
+                transform: translateY(30px);  /* Line 69: Start 30px lower */
+            }  /* Line 70: End starting state */
+            to {  /* Line 71: Animation ending state */
+                opacity: 1;  /* Line 72: End fully visible */
+                transform: translateY(0);  /* Line 73: End at normal position */
+            }  /* Line 74: End ending state */
+        }  /* Line 75: End animation definition */
+    </style>  <!-- Line 76: End CSS styling section -->
+</head>  <!-- Line 77: End HTML head section -->
+
+<body>  <!-- Line 79: Start HTML body content -->
+    <!-- Main content container with welcome message -->
+    <div class="container">  <!-- Line 81: Main content wrapper with styling -->
+        <!-- Primary welcome heading -->
+        <h1>Schön, dass du da bist</h1>  <!-- Line 83: Main welcome message as heading -->
+        
+        <!-- Secondary message about upcoming launch -->
+        <p>bald geht's los</p>  <!-- Line 86: Subtitle about upcoming start -->
+    </div>  <!-- Line 87: End main content container -->
+</body>  <!-- Line 88: End HTML body content -->
+</html>  <!-- Line 89: End HTML document -->

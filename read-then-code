@@ -1,0 +1,52 @@
+# Anforderungen an den Code
+1. jeder Zeile muss kommentiert werden
+
+2. kommentare müssen in offensichtlich selbst erklärnden wörtern geschrieben werden
+
+3. kommentare müssen angeben auf welche zeilen oder dokumente oder sonstigen dinge sie sich beziehen
+
+4. bitte maximal 50 zeilen code auf einmal ändern oder nachfragen
+
+5. jedes dokument mit einem passenden Zitat kommentieren
+
+6. in einem Versions Dokument die aktuelle version tracken
+
+
+
+---
+
+# Dokumente
+1. read-then-code
+2. log.py
+3. log.txt
+
+
+---
+
+# Beschreibung
+2. log.py
+
+
+
+log.py öffnet oder erstellt JSON Dokument, dessen Name am Anfang des programs als varoable gehardcoded wird
+
+log.py liest die summe aller aufrufe aus
+
+log.py speichert die summe aller aufrufe in der variable runs
+log.py macht runs += 1
+
+log.py kann in anderen dateien Modular verwendet werden
+auch in anderen ordnern
+
+log.py findet immer folgende infos
+
+2.1 Name der Datei
+2.2 Pfad zur Datei
+
+
+log.py speichert die infos zu 
+runs
+name
+pfad in der log datei ab
+
+der aktuellste aufruf ist immer oben
