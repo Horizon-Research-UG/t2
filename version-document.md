@@ -2,12 +2,13 @@
 
 > "Version control is insurance against the stupidity of others... and yourself." - Unknown
 
-## Current Version: 1.0.0
+## Current Version: 1.1.0
 
 ### Version History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|---------|
+| 1.1.0 | 2025-10-19 | Added log.py module implementation and GitHub Pages site | System |
 | 1.0.0 | 2025-10-19 | Initial requirements specification and English translation | System |
 
 ### Version Format
